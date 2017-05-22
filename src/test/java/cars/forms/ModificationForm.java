@@ -26,7 +26,7 @@ public class ModificationForm extends BaseForm{
     }
 
     public Car saveModification() {
-        BrowserFactory.waitForPageToLoad();
+        BrowserFactory.waitLoadingPage();
         //lblEngine = new Label(By.xpath(ENGINE_LOCATOR));
         // lblTransmision = new Label(By.xpath(TRANSMISSION_LOCATOR));
         Car car = new Car(lblEngine.getText(), lblTransmision.getText());

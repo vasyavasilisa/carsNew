@@ -33,6 +33,7 @@ public class Menu {
 
     public void navigateMenu(MenuItem concreteItem){
         BrowserFactory.waitLoadingPage();
+        BrowserFactory.waitLoadingPage();
         new Select(By.xpath(String.format( tabsLocator,concreteItem.getName()))).click();
     }
 }

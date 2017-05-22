@@ -47,7 +47,24 @@
             <version>1.2.5</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>1.2.5</version>
+        </dependency>        <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>cucumber-html</artifactId>
+        <version>0.2.6</version>
+    </dependency>
     </dependencies>
+    <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
+
+
     <build>
 
 
@@ -59,7 +76,7 @@
                 <version>2.19.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suitexmlfile>src/test/resources/testng.xml</suitexmlfile>
+                        <suitexmlfile>src/test/resources/cucumber.xml</suitexmlfile>
                     </suiteXmlFiles>
 
                     <properties>

@@ -4,6 +4,7 @@ import cars.forms.*;
 import cars.menu.Menu;
 import cars.model.Car;
 import framework.BrowserFactory;
+import org.testng.Assert;
 
 import java.io.UnsupportedEncodingException;
 
@@ -35,6 +36,7 @@ public class CarsTest {
         autoCompareForm.clickToAddAnotherCar();
         autoCompareForm.chooseParametrsAndDone(firstCar);
         autoCompareForm.compareCars(firstCar,secondCar);
+        Assert.assertEquals("1111","1111");
 
 
     }

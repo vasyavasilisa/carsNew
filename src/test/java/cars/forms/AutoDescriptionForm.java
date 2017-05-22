@@ -13,7 +13,8 @@ public class AutoDescriptionForm extends BaseForm{
     }
 
     public void chooseFirstModification(){
-        BrowserFactory.waitForPageToLoad();
+        BrowserFactory.waitLoadingPage();
+        BrowserFactory.waitLoadingPage();
         imgFirstModif = new Image(By.xpath(MODIFICATION_LOCATOR));
         imgFirstModif.click();
     }

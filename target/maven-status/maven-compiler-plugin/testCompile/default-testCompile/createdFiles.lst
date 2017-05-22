@@ -20,5 +20,7 @@ cars/forms/MainForm.class
 framework/CheckBox.class
 framework/services/CommonFunctions.class
 framework/Image.class
+steps/CarsTest.class
+steps/CucumberTestRunner.class
 cars/tests/CarsTest.class
 cars/tests/BaseTest.class

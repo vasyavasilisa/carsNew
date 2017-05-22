@@ -59,5 +59,10 @@ public class ComperingCarForm extends BaseForm {
         System.out.println(ll.size());
         System.out.println(ll.get(0).getText());
         System.out.println(ll.get(1).getText());
+        String firstEngine[]=ll.get(0).getText().split(",");/////////////////////////2 машина Engine
+        int colEngine=firstEngine.length/2;/////////////////////////2 машина
+        for(int i=0;i<colEngine;){
+
+        }
     }
 }
