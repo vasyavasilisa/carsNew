@@ -24,7 +24,7 @@ public class ComperingCarForm extends BaseForm {
     private static final String YEAR_LOCATOR = "//select[@name='yearDropdown']";
     private static final String CONCRETE_YEAR_LOCATOR = "//select[@name='yearDropdown']/option[text()='%s']";
     private static final String BUTTON_LOCATOR = "//button[@class='modal-button']";
-    private static final String FIRST_ENGINE_LOCATOR="//div[@ng-switch-when='simple-list'][1]/p[1]";
+    private static final String FIRST_ENGINE_LOCATOR="//cars-compare-compare-info[@header='Engine']/*/span";
     private static final String FIRST_TRANSMISSION_LOCATOR="//cars-compare-compare-info[@header='Transmission']/*/span";////div[1]//p[contains(text(),'speed')][1]";
 
     private Label lblAddCar;

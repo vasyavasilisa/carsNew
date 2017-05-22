@@ -1,86 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Onliner"
            tests="1"
-           failures="1"
+           failures="0"
            errors="0"
            skipped="0"
-           time="33.607">
+           time="39.879">
   <properties />
-            <testcase name="xTest" time="33.607" classname="cars.tests.BaseTest">
-                <failure type="org.openqa.selenium.NoSuchElementException"
-                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;trim_listing__footer&apos;]//div//div[@class=&apos;checkbox&apos;]&quot;}
-  (Session info: chrome=58.0.3029.81)
-  (Driver info: chromedriver=2.29.461571 (8a88bbe0775e2a23afda0ceaf2ef7ee74e822cc5),platform=Linux 4.4.0-75-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 34 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;tc-17-101p62-l&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-75-generic&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461571 (8a88bbe0775e2a23afda0ceaf2ef7ee74e822cc5), userDataDir=/tmp/.org.chromium.Chromium.1AUhvr}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.81, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 6383a45803d1b0b481c4e950dc435d75
-*** Element info: {Using=xpath, value=//div[@class=&apos;trim_listing__footer&apos;]//div//div[@class=&apos;checkbox&apos;]}"
-              >
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='trim_listing__footer']//div//div[@class='checkbox']"}
-  (Session info: chrome=58.0.3029.81)
-  (Driver info: chromedriver=2.29.461571 (8a88bbe0775e2a23afda0ceaf2ef7ee74e822cc5),platform=Linux 4.4.0-75-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 34 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'tc-17-101p62-l', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-75-generic', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461571 (8a88bbe0775e2a23afda0ceaf2ef7ee74e822cc5), userDataDir=/tmp/.org.chromium.Chromium.1AUhvr}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.81, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 6383a45803d1b0b481c4e950dc435d75
-*** Element info: {Using=xpath, value=//div[@class='trim_listing__footer']//div//div[@class='checkbox']}
-  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
-  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-  framework.BaseElement.findElement(BaseElement.java:38)
-  framework.CheckBox.findElement(CheckBox.java:45)
-  framework.CheckBox.<init>(CheckBox.java:14)
-  cars.forms.ModificationForm.checkCarToCompare(ModificationForm.java:38)
-  cars.tests.CarsTest.runTest(CarsTest.java:33)
-  cars.tests.BaseTest.xTest(BaseTest.java:43)
-  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:498)
-  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-  org.testng.TestRunner.privateRun(TestRunner.java:744)
-  org.testng.TestRunner.run(TestRunner.java:602)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-  org.testng.SuiteRunner.run(SuiteRunner.java:289)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-  org.testng.TestNG.runSuites(TestNG.java:1144)
-  org.testng.TestNG.run(TestNG.java:1115)
-  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-      </failure>
-
-          </testcase>
   
   
-  
+            <testcase name="xTest" time="39.879" classname="cars.tests.BaseTest" />
+      
 </testsuite>
